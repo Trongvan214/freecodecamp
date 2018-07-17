@@ -67,11 +67,14 @@ blockquote {
   }
   #tribute-info {
     float: left;
-    width: 50%;
+    width: 50%; 
   }
 }
 
 @media screen and (min-width: 1024px){
+  #tribute-info {
+    padding: 0 15px;
+  }
   header h1 {
     font-size: 2em;
   }
@@ -82,7 +85,7 @@ blockquote {
     font-size: 1.5em;
   }
   #time-line li {
-    font-size: 1.2em;
+    font-size: 1.4em;
   }
   blockquote {
     font-size: 1.5em;
@@ -108,7 +111,7 @@ blockquote {
     padding: 0 50px;
   }
   #time-line li {
-    font-size: 1.7em;
+    font-size: 2em;
   }
   blockquote {
     font-size: 2.3em;
