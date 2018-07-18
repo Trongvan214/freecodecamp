@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css?family=Ropa+Sans');
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Ropa Sans', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background: white;
+}
+.clearfix {
+    clear: both;
+}
+label {
+    display: inline-block;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+.wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #4AAFFB;
+    border: 0;
+}
+.wrapper:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    bottom: 0;
+    left: 0;
+    background: white;
+}
+#form-body {
+    width: 90%;
+    margin: 0 auto;
+} 
+#form {
+    position: absolute;
+    width: 80%;
+    max-width: 1440px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 0 100px 1px #96d0fc;
+    background: #FCFDFE;
+    border-radius: 3px;
+    padding: 15px 30px;
+    color: #494949;
+}
+header {
+    width: 100%;
+    height: 64px;
+}
+#title {
+    display: inline-block;
+    font-size: 40px;
+    color: #96d0fc;
+}
+#description {
+    margin-left: 8px;
+    display: inline-block;
+    font-size: 1.2em;
+    color: #494949;
+}
+.left-side {
+    float: left;
+    width: 40%
+}
+.right-side {
+    float: right;
+    width: 50%;
+}
+.row {
+    display: block;
+    position: relative;
+    margin: 20px 0;
+    overflow: auto;
+}
+.left-tab {
+    float: left;
+}
+.right-tab {
+    float: right;
+}
+.dropdown-label {
+    margin-top: 20px;
+    text-align: center;
+}
+.dropdown-select {
+    margin-top: 20px;
+    display: block;
+    text-align: center;
+    height: auto;
+}
+.dropdown-select select {
+    height: 30px;
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #c0c0c0;
+}
+.radio-label {
+    margin-top: 50px;
+    display: block;
+    text-align: center;
+}
+.radio-group {
+    text-align: center;
+}
+.radio-group li {
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+}
+.radio-group li input {
+    float: left;
+    margin-right: 7px;
+}
+.right-tab input {
+    height: 20px;
+    width: 280px;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;
+}
+.left-tab label {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.checkbox-group li {
+    float: left;
+    display: block;
+    width: calc(50% - 40px);
+    padding: 10px 20px;
+}
+.textarea-label {
+    display: block;
+    margin: 5px 0 20px 0;
+    text-align: center;
+}
+.textarea textarea {
+    display: block;
+    width: 70%;
+    margin: auto;
+    height: 150px;
+    border: 1px solid #c0c0c0;
+}
+.submit-button {
+    text-align: center;
+    margin: 20px;
+}
+#submit {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: transparent;
+    border: 1px solid #4AAFFB;
+    color: #4AAFFB;
+    font-size: 24px;
+}
+
+@media screen and (max-width: 1024px){
+    .right-tab input {
+        width: 200px;
+    }
+    .radio-group li {
+        display: block;
+        text-align: left;
+        padding-left: 50px;
+    }
+}
+@media screen and (max-width: 768px){
+    #form-body {
+        margin: 0;
+        width: 100%;
+    }
+    .right-tab input {
+        width: 150px;
+    }
+}
+@media screen and (max-width: 425px){
+    #form {
+        position: initial;
+        transform: translate(0, 0);
+        padding: 20px 15px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .left-side {
+        width: 100%;
+    }
+    .right-side {
+        width: 100%;
+    }
+    .right-tab input {
+        width: 280px;
+    }
+    .radio-label {
+        margin-top: 10px;
+    }
+    .radio-group li {
+        display: inline-block;
+        margin: 20px 10px;
+        padding: 0;
+    }
+    .textarea textarea {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 375px){
+    .right-tab input {
+        width: 240px;
+    }
+}
