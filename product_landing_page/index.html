@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Product Landing Page</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="wrapper-ls">
+            <header id="header">
+                <a id="home" href="#home">
+                    <i class="fa fa-plane" aria-hidden="true"></i>
+                    Travel Alberta
+                    <img id="header-img" src="#">
+                </a>
+                <nav id="nav-bar">
+                    <ul>
+                        <li><a href="#home" class="nav-link">Home</a></li>
+                        <li><a href="#plan" class="nav-link">Choose a plan</a></li>
+                        <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                    </ul>
+                    <img class="nav-burger" src="https://farm2.staticflickr.com/1783/42863738354_41d32616fe_z.jpg"></img>
+                </nav>
+            </header>
+            <section class="intro">
+                <div class="left-tab">
+                    <h1>Discover a new world</h1>
+                    <p>Stay tune</p>
+                    <form id="form" action="https://www.freecodecamp.com/email-submit">
+                        <input type="email" id="email" name="email" placeholder="Enter your email address"/>
+                        <input type="submit" id="submit" name="submit" value="Sign Up"/>
+                    </form>
+                </div>
+                <div class="video-wrapper">
+                    <iframe id="video" src="https://www.youtube.com/embed/mJhFtv5UTk8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+            </section>
+        </div>
+        <div id="plan">
+            <h2 class="plan-title">Choose a Plan</h2>
+            <section class="one-third">
+                <img src="https://farm1.staticflickr.com/927/42676431975_1c9d15501f_b.jpg" alt="guy on a mountain"/>
+                <h3 class="trip-title">One Trip</h3>
+                <p class="trip-price">$700</p> 
+                <p class="trip-info">Go on one an amazing adventure that's will forever be remembered</p>
+            </section>
+            <section class="one-third">
+                <img src="https://farm1.staticflickr.com/852/29710842218_3061deec20_b.jpg" alt="people putting their hands up"/>
+                <h3 class="trip-title">Package Trips</h3>
+                <p class="trip-price">$3000</p> 
+                <p class="trip-info">You will get to experience an amazing trips with the highest rates locations</p>
+            </section>
+            <section class="one-third">
+                <img src="https://farm2.staticflickr.com/1762/42863734404_8148e3bc95_z.jpg" alt="a person standing on a map"/>
+                <h3 class="trip-title">Worldwide trips</h3>
+                <p class="trip-price">$7000</p> 
+                <p class="trip-info">This package lets you visit a total of 30 countries with over 100 tourist attractiion places and amazing sight seeing</p>
+            </section>
+        </div>
+        <div id="gallery">
+            <h2 class="gallery-title">Gallery</h2>
+            <div class="gal-img-wrapper">
+                <img src="https://farm1.staticflickr.com/855/42863737834_895cb5d479_b.jpg" />
+            </div>
+            <div class="gal-img-wrapper">
+                <img src="https://farm1.staticflickr.com/936/42676434215_8ed578deca_b.jpg" />
+            </div>
+            <div class="gal-img-wrapper">
+                <img src="https://farm1.staticflickr.com/854/42863737104_d3fb336acf_b.jpg" />
+            </div>
+            <div class="gal-img-wrapper">
+                <img src="https://farm1.staticflickr.com/917/42676433075_79a209ee8e_b.jpg" />
+            </div>
+            <div class="gal-img-wrapper">
+                <img src="https://farm2.staticflickr.com/1785/42863735854_a503464649_b.jpg" />
+            </div>
+            <div class="gal-img-wrapper">
+                <img src="https://farm1.staticflickr.com/936/42676432355_9c0573696b_b.jpg" />
+            </div>
+        </div>
+    </div>
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous">
+    </script>
+    <script src="main.js"></script>
+</body>
+</html>
